@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.formulario{
+    margin-left: 600px;
+    height: 360px;
+    
+    background-color: antiquewhite;
+    width: 400px;
+    border-radius:10px ;
+
+}
+.formulario h1{
+    text-align: center;
+
+}
+.nombreusuario{
+    
+    box-sizing: border-box;
+    padding: 0 40px;
+    border-bottom: 2px solid gray;
+    margin: 30px 0;
+
+}
+
+.recuperar{
+   
+    box-sizing: border-box;
+    padding: 0 40px;
+
+}
+.registro{
+    
+    box-sizing: border-box;
+    padding: 0 40px;
+
+}
+.recuperar{
+    text-align: center;
+    padding: 12px;
+}
+
+.button registro-boton{
+    padding-left: 50px;
+
+}
+.registro{
+    text-align: center;
+    padding-top: 10px;
+}
+.boton{
+    padding-left: 160px;
+   
+}
+
+.boton button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-footer{
+    background-color: antiquewhite;
+    padding: 60px 0;
+    align-items: center;
+
+    
+}
+.columna-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    
+}
+.links-footer ul li a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.links-footer ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.links-footer{
+    padding-left: 280px;
+    list-style-type: none;
+
+}
+.redes-sociales a{
+    text-decoration:none ;
+    color: black;
+
+}
+.links-foote{
+    padding-left: 300px;
+    padding: 0 0 130px 100;
+    font-size: 20px;
+    margin-top: 10px;
+    
+    
+}
+.redes-sociales{
+    padding: 0 0 90px;
+    
+}
+.redes-sociales a{
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+.links-footer h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

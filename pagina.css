@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.header{
+    background-color: rgb(176, 128, 65);
+    justify-content: space-between;
+    display: flex;
+}
+.navbar{
+   
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130px;
+    display: flex;
+}
+.logo{
+    padding-left: 20px;
+    width: 180px;
+    height: 150px;
+}
+.logo img{
+    cursor: pointer;
+    height: 140px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+.lista li{
+    padding: 10px 50px 20px;
+   
+}
+.lista li a{
+    text-decoration: none; 
+    color: black;
+}
+.lista li:hover{
+    transform: scale(1.1);
+
+}
+.login a button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.login a button:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+.eslogan{
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+   
+}
+.famliaimagen{
+    width: 600px; 
+    padding-right: 60px;
+}
+.eslogan h1{
+    padding-left: 70px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.contenedor-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.card{
+    width: 325px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    height: 360px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.cotenido-card{
+    padding-left: 7px;
+}
+.cotenido-card h3{
+    font-size: 18px;
+
+}
+.cotenido-card h1{
+    font-size: 18px;
+}
+
+.card img{
+    width: 325px;
+    height: 240px;
+}
+
+
+
+
+
+
+.contenedor-footer{
+    background-color:  antiquewhite;
+    padding: 60px 0;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.columna-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    
+}
+.links-footer ul li a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.links-footer ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.links-footer{
+    padding-left: 280px;
+    list-style-type: none;
+
+}
+.redes-sociales a{
+    text-decoration:none ;
+    color: black;
+
+}
+.links-foote{
+    padding-left: 300px;
+    padding: 0 0 130px 100;
+    font-size: 20px;
+    margin-top: 10px;
+    
+    
+}
+.redes-sociales{
+    padding: 0 0 90px;
+    
+}
+.redes-sociales a{
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+.links-footer h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
