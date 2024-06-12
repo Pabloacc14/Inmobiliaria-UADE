@@ -20,11 +20,11 @@
                 <input type="password">
                 <label>Contraseña</label>
             </div> 
-            <div class="boton"><button>Inicio</button></div>
+            <div class="boton"><button onclick="Inicio()">Inicio</button></div>
             <div class="recuperar">¿Olvido su contraseña?</div>
          
-            <div class="registro">
-                Si no tenés cuenta <a href="#">Regístrate acá</a>
+            <div class="registro" >
+                Si no tenés cuenta <a href="#" onclick="Registrate()">Regístrate acá</a>
             </div>
             <div class="registro">Al registrarme acepto los términos, condiciones y politicas de privacidad</div>
 
@@ -69,4 +69,14 @@
     </footer>
     
 </body>
+<script>
+    function Inicio(){ 
+        window.alert("Inicio de sesión")
+             
+    }
+    function Registrate(){
+        window.alert("Registro")
+    }
+</script>
+    
 </html>

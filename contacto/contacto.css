@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.header{
+    background-color: rgb(176, 128, 65);
+    justify-content: space-between;
+    display: flex;
+}
+.navbar{
+   
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130px;
+    display: flex;
+}
+.logo{
+    padding-left: 20px;
+    width: 180px;
+    height: 150px;
+}
+.logo img{
+    cursor: pointer;
+    height: 140px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+.lista li{
+    padding: 10px 50px 20px;
+   
+}
+.lista li a{
+    text-decoration: none; 
+    color: black;
+}
+.lista li:hover{
+    transform: scale(1.1);
+
+}
+.login a button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.login a button:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: 0.5em;
+  }
+
+  .container{
+    padding-top: 50px;
+    padding: 50px 0 100px;
+  }
+  
+
+.contenedor-footer{
+  background-color:  antiquewhite;
+  padding: 60px 0;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.columna-footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-items: center;
+  
+}
+.links-footer ul li a{
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+.links-footer ul li{
+  list-style-type: none;
+  margin-top: 10px;
+}
+.links-footer{
+  padding-left: 280px;
+  list-style-type: none;
+
+}
+.redes-sociales a{
+  text-decoration:none ;
+  color: black;
+
+}
+.links-foote{
+  padding-left: 300px;
+  padding: 0 0 130px 100;
+  font-size: 20px;
+  margin-top: 10px;
+  
+  
+}
+.redes-sociales{
+  padding: 0 0 90px;
+  
+}
+.redes-sociales a{
+  padding-top: 40px;
+  padding-left: 10px;
+
+}
+.links-footer h4{
+  font-size: 20px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+  

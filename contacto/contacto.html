@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacto.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img class="logo" href="../pagina.html" src="../Imagenes/logo.png">
+            </div>
+        <nav>
+            <ul class="lista">
+                <li><a href="../pagina.html">Inicio</a></li>
+                <li><a href="../ventas/ventas.html">Ventas</a></li>
+                <li><a href="../alquileres/alquiler.html">Alquileres</a></li>
+                <li><a href="../contacto/contacto.html">Contacto</a></li>
+                <li><a href="../nosotros/nosotros.html">¿Quiénes somos?</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="../iniciosesion/iniciarsesion.html"><button>Iniciar sesión</button></a>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <button onclick="contacto()">Enviar</button>
+          
+      
+            </ul>        
+            
+          </form>
+    </div>
+    <script>
+
+      function contacto(){
+          window.alert("Mensaje enviado con éxito")
+      }
+  </script>
+  <footer class="contenedor-footer">
+    <div class="contenedor-footer">
+        <div class="columna-footer">
+            <div class="links-footer">
+                <h4>Compañia</h4>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Nuestros servicios</a></li>
+                    <li><a href="#">Software Inmobiliario</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                </ul>
+
+            </div>
+            <div class="links-footer">
+                <h4>Inmobiliaria Woods</h4>
+                <ul>
+                    <li><a href="#">Preguntas</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Dirección</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="links-foote">
+                <h4>Siguenos</h4>
+                <div class="redes-sociales">
+                    <a href="https://www.instagram.com/"class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/"class="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/"class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/"class="fa fa-linkedin"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
